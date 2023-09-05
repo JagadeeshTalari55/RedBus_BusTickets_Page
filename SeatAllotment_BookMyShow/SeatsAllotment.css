@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.seatAllotmentPage_Wrapper {
+  width: 80vw;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.TotalSeatsAllotment {
+  width: fit-content;
+  margin: auto;
+  /* background-color: rgb(107, 235, 235); */
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: 100px 400px 130px;
+}
+
+.TotalSeatsAllotment > div {
+  text-align: center;
+  /* padding-top: 50%; */
+  /* border: 1px solid #000; */
+}
+
+.child1 {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(3, 25px);
+}
+
+.seat {
+  background-color: #fff;
+  border: 1px solid green;
+  border-radius: 2px;
+  line-height: 25px;
+  color: green;
+  height: 25px;
+  color: blacks;
+}
+
+.seat:hover {
+  background-color: green;
+  color: #fff;
+  height: 25px;
+  color: blacks;
+}
+
+.child2 {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(13, 25px);
+}
+
+.child5 {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(4, 25px);
+  grid-template-rows: repeat(4, 25px);
+}
